@@ -1,8 +1,8 @@
 # Platformer
 
-**This project has been copied over from git.app.uib.no
+**This project has been copied over from git.app.uib.no**
 
-Authors: Ole Kristian Westby, three others. (I decided not to include names for anonymity, but I will add if anyone wishes.)
+**Authors: Ole Kristian Westby, three others. (I decided not to include names for anonymity, but I will add if anyone wishes.)**
 
 ![alt text](https://i.ibb.co/FbzCnL3/Game-Cover.jpg)
 
