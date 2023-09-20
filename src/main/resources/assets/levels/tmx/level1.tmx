@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="right-down" width="46" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" name="brick" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="brick.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="46" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="3" type="platform" x="2" y="576" width="2942.33" height="61"/>
+  <object id="6" type="zombie" x="782" y="472" width="68" height="94"/>
+  <object id="7" type="platform" x="2" y="446" width="61" height="129"/>
+  <object id="9" type="platform" x="642" y="384" width="61" height="191"/>
+  <object id="10" type="zombie" x="1500" y="451" width="68" height="94"/>
+  <object id="11" type="zombie" x="1200" y="443" width="68" height="94"/>
+  <object id="12" type="platform" x="960.833" y="382.167" width="61" height="192.667"/>
+  <object id="14" type="platform" x="1729.5" y="385.167" width="61" height="191.667"/>
+  <object id="15" type="platform" x="2178.17" y="1.16667" width="125.667" height="444.333"/>
+  <object id="16" type="levelFinish" x="2172" y="439" width="135" height="141"/>
+  <object id="17" type="coin" x="445" y="380" width="68" height="69"/>
+ </objectgroup>
+</map>
